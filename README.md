@@ -114,6 +114,19 @@ The dashboard opens at `http://localhost:8501` and displays:
 - Demographic fairness audit across 4 dimensions
 - Governance & human decision boundary statements
 
+### Streamlit Community Cloud Deployment
+
+The app is deployable from the public GitHub repository on Streamlit Community
+Cloud with this configuration:
+
+- Repository: `Intellisense-Roshan/overpayment_RoshanFelix`
+- Branch: `main`
+- Main file path: `app.py`
+
+After deployment, Streamlit Community Cloud provides the public app URL. The
+app reads the repository's `data/` and `outputs/` files using repository-relative
+paths, so no local machine paths or secrets are required.
+
 ---
 
 ## 6. CLI Usage & Options
