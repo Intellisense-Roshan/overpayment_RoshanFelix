@@ -73,7 +73,7 @@ The system processes two read-only administrative datasets in `data/`:
 
 ### 1. Clone & Setup Environment
 ```bash
-git clone <repo-url>
+git clone https://github.com/Intellisense-Roshan/overpayment_RoshanFelix.git
 cd overpayment-signal
 
 # Create virtual environment
