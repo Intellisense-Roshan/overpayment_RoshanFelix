@@ -105,7 +105,7 @@ def generate_case_explanation(
         evidence_points = [
             f"Identical duplicate payments recorded in {dup_months_count} separate month(s): {dup_months_str}.",
             f"Total duplicate excess amount is ${total_dup_excess:,.2f} across {len(relevant_payment_ids)} duplicate transaction records.",
-            f"Payment methods used in duplicate months: {', '.join(set([m for d in dup_details for m in d['methods']]))}.",
+            f"Payment methods used in duplicate months: {', '.join(sorted({m for d in dup_details for m in d['methods']}))}.",
             f"Duplicate transaction IDs: {', '.join(relevant_payment_ids)}."
         ]
         status_info = f"{status} (Active case with multiple within-month duplicate disbursements)"

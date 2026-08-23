@@ -217,7 +217,7 @@
 **Key Evidence Points:**
 - Identical duplicate payments recorded in 4 separate month(s): 2025-08, 2025-09, 2025-10, 2025-11.
 - Total duplicate excess amount is $4,488.39 across 8 duplicate transaction records.
-- Payment methods used in duplicate months: Transfer, Card.
+- Payment methods used in duplicate months: Card, Transfer.
 - Duplicate transaction IDs: P-123456, P-123457, P-123458, P-123459, P-123460, P-123461, P-123462, P-123463.
 
 - **Relevant Payment Months**: `2025-08, 2025-09, 2025-10, 2025-11`
